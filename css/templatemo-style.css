@@ -7,6 +7,17 @@
  *
  */
 
+ #particles-js {
+   width: 100%;
+   height: 100%;
+   /* background-size: cover; */
+   background-position: 50% 50%;
+   position: fixed;
+   top: 0px;
+   z-index: 1;
+ }
+
+
 .column {
   float: left;
   /* width: 33.33%; */
@@ -47,6 +58,8 @@ a:focus {
 /* Header & Nav */
 body {
   overflow-x: hidden;
+  background-image: url('../bg1.gif');
+  z-index: 99999;
 }
 .tm-header1 {
   background: black;
@@ -59,17 +72,34 @@ body {
 
 .tm-header2 {
   position: fixed;
-  margin-left: 90%;
-  margin-top: 1.5rem;
+  margin-left: 67%;
+  margin-top: 3.5rem;
   float: right;
   top: 0;
-  z-index: 25;
+  z-index: 50;
 }
 
 .tm-header3 {
   position: fixed;
-  margin-left: 87%;
-  margin-top: 2.2rem;
+  margin-left: 77%;
+  margin-top: 3.5rem;
+  float: right;
+  top: 0;
+  z-index: 30;
+}
+
+.tm-header4 {
+  position: fixed;
+  margin-left: 85%;
+  margin-top: 3.5rem;
+  float: right;
+  top: 0;
+  z-index: 30;
+}
+.tm-header5 {
+  position: fixed;
+  margin-left: 90%;
+  margin-top: 3.5rem;
   float: right;
   top: 0;
   z-index: 30;
@@ -340,9 +370,10 @@ body {
   right: 10px;
   left: auto;
 }
-.tm-white-bg {
-  background-color: #fbfcf6;
-}
+/* .tm-white-bg {
+  /* background-color: #fbfcf6; */
+  /* background-color: grey;
+}  */
 .tm-home-box-1 {
   width: 346px;
   height: 436px;
@@ -476,6 +507,8 @@ hr {
   padding: 5px;
   margin-top: 20px;
   background-color: white;
+  position: relative;
+  z-index: 9999;
 }
 .tm-box-2:hover {
   scale: 1.1;
