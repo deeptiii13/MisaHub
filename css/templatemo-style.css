@@ -7,7 +7,6 @@
  *
  */
 
-
 .column {
   float: left;
   /* width: 33.33%; */
@@ -48,11 +47,26 @@ a:focus {
 /* Header & Nav */
 
 .main-bg{
-  background-image: url('../img/image-asset.gif');
+  background-image: url('../img/background.jpeg');
     /* background-repeat: no-repeat; */
     z-index: 99999;
     background-size: auto;
-    /* background-size: cover; */
+    background-size: cover;
+    animation-name: movement;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+
+@keyframes movement{
+  0%{
+    background-size: 120%;
+  }
+  50%{
+    background-size: 150%;
+  }
+  100%{
+    background-size: 120%;
+  }
 }
 
 .webd-bg{
