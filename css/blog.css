@@ -40,6 +40,8 @@ body {
 .card {
     margin: 15px;
     width: calc((100% / 3) - 30px);
+    /* @anushka- creating single horizontal row card */
+    /* width: 100%; */
     transition: all 0.2s ease-in-out;
 }
 @media screen and (max-width: 991px) {
@@ -83,9 +85,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #eceef1;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 .card__expander .fa {
     font-size: 0.75em;
@@ -128,8 +130,10 @@ body {
     content: "\f115";
 }
 .card.is-expanded .card__expander {
-    max-height: 1000px;
-    min-height: 200px;
+
+    /* @anushka- changing height of expander */
+    max-height: 5000px;
+    min-height: 900px;
     overflow: visible;
     margin-top: 30px;
     opacity: 1;
