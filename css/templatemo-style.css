@@ -56,10 +56,24 @@ a:focus {
 }
 
 /* Header & Nav */
+
+.main-bg{
+  background-image: url('../img/bgnew.webp');
+    /* background-repeat: no-repeat; */
+    z-index: 99999;
+    background-size: auto;
+    background-size: cover;
+}
+
+.webd-bg{
+  background-image: url('../img/image-asset\ \(1\).gif');
+    /* background-repeat: no-repeat; */
+    z-index: 99999;
+    background-size: auto;
+    /* background-size: cover; */
+}
 body {
   overflow-x: hidden;
-  background-image: url('../bg1.gif');
-  z-index: 99999;
 }
 .tm-header1 {
   background: black;
