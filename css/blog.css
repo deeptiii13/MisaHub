@@ -39,9 +39,9 @@ body {
 }
 .card {
     margin: 15px;
-    width: calc((100% / 3) - 30px);
+    /* width: calc((100% / 3) - 30px); */
     /* @anushka- creating single horizontal row card */
-    /* width: 100%; */
+    width: 100%;
     transition: all 0.2s ease-in-out;
 }
 @media screen and (max-width: 991px) {
