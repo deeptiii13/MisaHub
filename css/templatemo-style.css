@@ -7,17 +7,6 @@
  *
  */
 
- #particles-js {
-   width: 100%;
-   height: 100%;
-   /* background-size: cover; */
-   background-position: 50% 50%;
-   position: fixed;
-   top: 0px;
-   z-index: 1;
- }
-
-
 .column {
   float: left;
   /* width: 33.33%; */
@@ -58,11 +47,26 @@ a:focus {
 /* Header & Nav */
 
 .main-bg{
-  background-image: url('../img/bgnew.webp');
+  background-image: url('../img/background.jpeg');
     /* background-repeat: no-repeat; */
     z-index: 99999;
     background-size: auto;
     background-size: cover;
+    animation-name: movement;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+
+@keyframes movement{
+  0%{
+    background-size: 120%;
+  }
+  50%{
+    background-size: 150%;
+  }
+  100%{
+    background-size: 120%;
+  }
 }
 
 .webd-bg{
@@ -112,8 +116,8 @@ body {
 }
 .tm-header5 {
   position: fixed;
-  margin-left: 90%;
-  margin-top: 3.5rem;
+  margin-left: 30%;
+  margin-top: 0;
   float: right;
   top: 0;
   z-index: 30;
