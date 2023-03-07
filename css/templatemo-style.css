@@ -50,7 +50,7 @@ a:focus {
   background-image: url('../img/background.jpeg');
     /* background-repeat: no-repeat; */
     z-index: 99999;
-    background-size: auto;
+    /* background-size: auto; */
     background-size: cover;
     animation-name: movement;
     animation-iteration-count: infinite;
@@ -70,7 +70,7 @@ a:focus {
 }
 
 .webd-bg{
-  background-image: url('../img/image-asset\ \(1\).gif');
+  background-image: url('../img/background.jpeg');
     /* background-repeat: no-repeat; */
     z-index: 99999;
     background-size: auto;
