@@ -155,7 +155,7 @@ body {
   text-transform: uppercase;
   transition: all 0.3s ease;
   padding: 10px 20px;
-  margin: 20px 5px;
+  margin: 20px 1px;
   border-radius: 10px;
 }
 .tm-nav li a.active,
@@ -574,7 +574,7 @@ hr {
 .tm-about-box-1 {
   background-color: white;
   width: 255px;
-  height: 350px;
+  height: 280px;
   padding: 30px;
   margin-top: 10px;
   text-align: center;
@@ -592,8 +592,9 @@ hr {
 }
 .tm-about-box-1-title {
   font-size: 17px;
-  font-style: italic;
+  /* font-style: italic; */
   /* text-transform: uppercase; */
+  font-weight: bold;
   margin-bottom: 5px;
 }
 .tm-about-box-1-title span {
