@@ -57,17 +57,6 @@ a:focus {
     animation-duration: 8s;
 }
 
-/* .main-bg{
-  background-image: url('../img/background.jpeg');
-    background-repeat: no-repeat;
-    z-index: 99999;
-    background-size: auto;
-    background-size: cover;
-    animation-name: movement;
-    animation-iteration-count: infinite;
-    animation-duration: 20s;
-} */
-
 .heading:hover{
   transform: scale(1.03);
   box-shadow: 2px 2.5px 2.5px black;
