@@ -47,7 +47,7 @@ a:focus {
 /* Header & Nav */
 
 .main-bg{
-  background-image: url('../img/background.jpeg');
+  background-image: url('../img/bg5.png');
     /* background-repeat: no-repeat; */
     z-index: 99999;
     /* background-size: auto; */
@@ -59,13 +59,13 @@ a:focus {
 
 @keyframes movement{
   0%{
-    background-size: 120%;
+    background-size: 95%;
   }
   50%{
     background-size: 150%;
   }
   100%{
-    background-size: 120%;
+    background-size: 90%;
   }
 }
 
