@@ -159,7 +159,7 @@ body {
   /* padding: 45px 34px 15px 34px; */
   text-transform: uppercase;
   transition: all 0.3s ease;
-  padding: 10px 20px;
+  padding: 10px 15px;
   margin: 20px 1px;
   border-radius: 10px;
 }
@@ -1016,7 +1016,7 @@ hr {
   .tm-nav li a {
     color: white;
     display: block;
-    padding: 20px 30px 20px;
+    padding: 20px 30px 5px;
   }
   /* mobile menu icon */
   .mobile-menu-icon {
